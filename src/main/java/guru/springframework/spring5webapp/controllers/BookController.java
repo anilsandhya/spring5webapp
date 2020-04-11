@@ -19,7 +19,7 @@ public class BookController {
 
         model.addAttribute("books", bookRepository.findAll());
 
-        System.out.println("end running of get books");
+        //System.out.println("end running of get books");
         return "books/list";
     }
 }
